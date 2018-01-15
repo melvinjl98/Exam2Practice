@@ -110,7 +110,7 @@ def practice_problem2a(sequence, delta):
     newSeq = []
 
     for k in range(len(sequence)):
-        newSeq += [sequence[k] + delta]
+        newSeq = newSeq + [sequence[k] + delta]
 
     return newSeq
 
@@ -200,7 +200,7 @@ def practice_problem2b(sequence):
       :type sequence [str]
     """
     ####################################################################
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #     The testing code is already written for you (above).
     ####################################################################
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
@@ -211,7 +211,7 @@ def practice_problem2b(sequence):
 
     for k in range(len(sequence)):
         if not (len(sequence[k]) == 0):
-            newString += sequence[k][0]
+            newString = newString + sequence[k][0]
 
     return newString
 
