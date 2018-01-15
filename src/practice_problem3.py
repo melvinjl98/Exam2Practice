@@ -80,7 +80,7 @@ def is_prime(n):
 
 def run_test_practice_problem3a():
     """ Tests the    practice_problem3a    function. """
-    # ------------------------------------------------------------------
+    # ----------------------------------------------------------------
     # 6 tests.
     # They use the imported   simple_testing (st)   module.
     # Each test is a SimpleTestCase with 3 arguments:
