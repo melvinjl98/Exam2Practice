@@ -379,7 +379,7 @@ def practice_problem3c(sequence):
 
     for k in range(len(sequence)):
         if (sequence[k] == 0):
-            newList = newList [k]
+            newList = newList + [k]
 
     return newList
 
